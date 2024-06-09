@@ -1,0 +1,35 @@
+{
+  "name": "tauri-examples",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.0.4",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-aria-components": "^1.2.1",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.0.3",
+    "@eslint/js": "^9.4.0",
+    "@tauri-apps/cli": "^1.5.14",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^9.4.0",
+    "eslint-config-next": "14.2.3",
+    "eslint-plugin-react": "^7.34.2",
+    "globals": "^15.3.0",
+    "postcss": "^8",
+    "reactflow": "11.11.3",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "typescript-eslint": "^7.11.0"
+  }
+}
