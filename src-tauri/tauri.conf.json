@@ -12,7 +12,28 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false
+      "all": true,
+      "path": {
+        "all": true
+      },
+      "protocol": {
+        "all": true,
+        "asset": true,
+        "assetScope": ["**"]
+      },
+      "fs": {
+        "all": true,
+        "readFile": true,
+        "writeFile": true,
+        "readDir": true,
+        "copyFile": true,
+        "createDir": true,
+        "removeDir": true,
+        "removeFile": true,
+        "renameFile": true,
+        "exists": true,
+        "scope": ["**"]
+    }
     },
     "bundle": {
       "active": true,
@@ -29,7 +50,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "show-app",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -48,7 +69,7 @@
       }
     },
     "security": {
-      "csp": null
+      "csp": "style-src 'self' 'unsafe-inline'"
     },
     "updater": {
       "active": false

@@ -31,3 +31,55 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+.gallery-container {
+  background-color: #1E3A8A;
+}
+
+.gallery-title {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.grid-image {
+  margin-top: '20px';
+}
+
+
+.gallery-paper {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #1E3A8A;
+}
+
+.paper-root {
+  padding: '10px';
+  background-color: #FFC0CB;
+}
+
+.data-show {
+
+  max-height: 80%;
+}
+
+.transition-opacity {
+  transition: opacity 0.5s ease-in-out;
+}
