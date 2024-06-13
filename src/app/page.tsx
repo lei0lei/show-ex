@@ -137,7 +137,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col h-screen bg-blue-400">
+    <div className="flex flex-col h-screen background-image">
   <h4 className="gallery-title text-2xl font-bold mb-4 flex-shrink-0 text-center mx-auto">XXXXXX系统</h4>
   {!showImageGallery && (
     <div className="grid grid-cols-12 gap-4 items-center flex-shrink-0">
@@ -171,9 +171,9 @@ export default function Home() {
   {showImageGallery && (
     <div className="flex flex-1 overflow-hidden data-show">
       <div className="w-3/5 h-full p-4 overflow-auto">
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div className="fill-grid p-4 overflow-auto grid grid-cols-2 sm:grid-cols-4 gap-4">
           {Array.from({ length: 8 }).map((_, index) => (
-            <div key={index} className="gallery-paper p-4 bg-white rounded shadow">
+            <div key={index} className="gallery-paper p-4 bg-white rounded shadow w-full h-full">
               {images[index] ? (
                 <img src={images[index]} alt={`Image ${index}`} className="gallery-image w-full h-full object-cover" />
               ) : (
