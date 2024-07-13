@@ -37,14 +37,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 ## features
-- tauri
-- nextjs
-- aria
-- Eslint
-- hikvision camera
-- modbus
-- biomejs
-- headlessui
-- materialui
-- reactflow
-- tailwindui
